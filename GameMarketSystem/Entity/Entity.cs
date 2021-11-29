@@ -9,6 +9,7 @@ namespace GameMarketSystem.Entity
 {
     public abstract class Entity:IEntity
     {
+    //Bu yanlış bir yöntem, tüm entityler için aynı değeri döndürür bu da tablolarda tutarsızlık yaratır
         private static int _nextId = 0;
         public Entity()
         {
